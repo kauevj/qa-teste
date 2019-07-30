@@ -1,0 +1,16 @@
+@WhatsAppTesteStatusMensagem
+Funcionalidade: Status de mensagem
+
+Contexto:
+  Dado que o usuarios esteja em uma conversa do WhatsApp
+
+Cenaio: Status de mensagem enviada
+  Quando o usuario envia uma mensagem a um contato
+    E ao lado direito da mensagem enviada contam os dados da mensagem
+  Entao informa a hora e recebimento da mensagem.
+
+Cenario: Status de recebimento da mensagem
+  Quando enviado a mensagem o status e informado
+    E aparece uma barra para mensagem nao recebida
+    E duas para mensagem recebida
+  Entao para mensagem recebida e lida as duas barras ficarao azul
